@@ -1,28 +1,19 @@
-<html>
 
+<!--honk font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
+<!--pixel sans font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+<html>
 <head>
     <title>Currículo Virtual</title>
 
-    <style>
-        body{
-            background-color: rgb(238, 229, 210);
-        }
-
-        header img{
-            margin-left: 40px;
-        }
-
-        header h2{
-            float: right;
-            margin-right: 1400px;
-        }
-
-        header p{
-            float: right;
-            margin-right: 800px;
-        }   
-
-    </style>
+    <link rel="stylesheet" href="index.css">
 
 
 </head>
@@ -30,7 +21,6 @@
 <body>
     
     <header>
-            <h1>Currículo Virtual</h1>
             <img src="./imagens/images.avif" alt="Foto de perfil" width="200">
 
             <h2>Manassés Paterline</h2>
@@ -39,81 +29,84 @@
                 voluptas.</p>
     </header>
 
-    <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-    </ul>
+    <div class="card">
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
 
-    <img src="./imagens/computer.gif" alt="Computer Gif" style="width: 80px;">
+        <img src="./imagens/computer.gif" alt="Computer Gif" style="width: 80px;">
 
-    <hr color="black" align="left" width="350">
-    <h2>Contato</h2>
+        <hr color="black" width="350">
+        <h2>Contato</h2>
 
-    <form action="#" method="get">
-        <label for="email">Email</label><br>
-        <input type="text" name="email" id="email" placeholder="Email"><br>
-        <br>
-        <label for="mensagem">Mensagem</label><br>
-        <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea><br>
-        <br>
-        <label for="dob">Data de Nascimento</label><br>
-        <input type="date" name="dob"><br>
-        <br>
-        <label for="cor">Cor Preferida</label><br>
-        <input type="color"><br>
-        <br>
-        <label for="volume">Volume</label><br>
-        <input type="range" id="volume" name="volume" min="0" max="100"><br>
-        <br>
-        <label for="time">Escolha uma hora:</label>
-        <input type="time" id="time" name="time"><br>
-        <br>
-        <label for="url">Insira uma URL:</label><br>
-        <input type="url" name="url" id="url" placeholder="https://exemplo.com" pattern="https://.*" size="30" required/><br>
-        <br>
-        <input type="submit"><br>
-    </form>
+        <form action="#" method="get">
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" placeholder="Email"><br>
+            <br>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea><br>
+            <br>
+            <label for="dob">Data de Nascimento</label><br>
+            <input type="date" name="dob"><br>
+            <br>
+            <label for="cor">Cor Preferida</label><br>
+            <input type="color"><br>
+            <br>
+            <label for="volume">Volume</label><br>
+            <input type="range" id="volume" name="volume" min="0" max="100"><br>
+            <br>
+            <label for="time">Escolha uma hora:</label>
+            <input type="time" id="time" name="time"><br>
+            <br>
+            <label for="url">Insira uma URL:</label><br>
+            <input type="url" name="url" id="url" placeholder="https://exemplo.com" pattern="https://.*" size="30" required/><br>
+            <br>
+            <input type="submit"><br>
+        </form>
 
-    <hr color="black" align="left" width="350">
+        <hr color="black" width="350">
 
-    <!-- Table -->
-    <h2>Tabela</h2>
-    
-    <table border="1">
-        <thead>
-            <tr>
-                <th bgcolor="PaleGoldenrod">Nome</th>
-                <th bgcolor="PaleGoldenrod">Campus</th>
-                <th bgcolor="PaleGoldenrod">Curso</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Manassés</td>
-                <td>Vila Velha</td>
-                <td>Ciência da Computação</td>
-            </tr>
-            <tr>
-                <td>Alfred</td>
-                <td>São Paulo</td>
-                <td>Física</td>
-            </tr>
-            <tr>
-                <td>Claus</td>
-                <td>Campinas</td>
-                <td>Medicina</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="3">Desenvolvido por Manassés</td>
-            </tr>
-        </tfoot>
-    </table>
-    <br>
+        <!-- Table -->
+        <h2>Tabela</h2>
 
-    <hr color="black" align="left" width="350">
+        <table border="1" class="center">
+            <thead>
+                <tr>
+                    <th bgcolor="PaleGoldenrod">Nome</th>
+                    <th bgcolor="PaleGoldenrod">Campus</th>
+                    <th bgcolor="PaleGoldenrod">Curso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manassés</td>
+                    <td>Vila Velha</td>
+                    <td>Ciência da Computação</td>
+                </tr>
+                <tr>
+                    <td>Alfred</td>
+                    <td>São Paulo</td>
+                    <td>Física</td>
+                </tr>
+                <tr>
+                    <td>Claus</td>
+                    <td>Campinas</td>
+                    <td>Medicina</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Desenvolvido por Manassés</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+
+        <hr color="black" width="350">
+
+    </div>
 
     <h2>Redes Sociais</h2>
 
