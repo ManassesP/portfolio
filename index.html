@@ -9,104 +9,71 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Honk&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
+<!--Ícone da página-->
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/1373/1373183.png"/>
+
 <html>
 <head>
     <title>Currículo Virtual</title>
-
     <link rel="stylesheet" href="index.css">
-
-
 </head>
 
 <body>
     
     <header>
-            <img src="./imagens/images.avif" alt="Foto de perfil" width="200">
-
-            <h2>Manassés Paterline</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequuntur explicabo quisquam itaque minima non <br>
-                perspiciatis voluptates eligendi. Et molestiae sequi alias libero totam, nihil quod facilis deserunt nam
-                voluptas.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="card">
-        <ul>
-            <li>a</li>
-            <li>b</li>
-            <li>c</li>
-        </ul>
+    <section id="home">
+        <img src="./imagens/images.avif" alt="Foto de perfil" width="200">
 
-        <img src="./imagens/computer.gif" alt="Computer Gif" style="width: 80px;">
+        <h2>Manassés Paterline</h2>
 
-        <hr color="black" width="350">
-        <h2>Contato</h2>
+        <div class="info">
+            <img src="./imagens/computer.gif" alt="Computer Gif">
+            <p>Cursando Ciência da Computação.</p>
+        </div>
+        
+    </section>
 
-        <form action="#" method="get">
-            <label for="email">Email</label><br>
-            <input type="text" name="email" id="email" placeholder="Email"><br>
-            <br>
-            <label for="mensagem">Mensagem</label><br>
-            <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea><br>
-            <br>
-            <label for="dob">Data de Nascimento</label><br>
-            <input type="date" name="dob"><br>
-            <br>
-            <label for="cor">Cor Preferida</label><br>
-            <input type="color"><br>
-            <br>
-            <label for="volume">Volume</label><br>
-            <input type="range" id="volume" name="volume" min="0" max="100"><br>
-            <br>
-            <label for="time">Escolha uma hora:</label>
-            <input type="time" id="time" name="time"><br>
-            <br>
-            <label for="url">Insira uma URL:</label><br>
-            <input type="url" name="url" id="url" placeholder="https://exemplo.com" pattern="https://.*" size="30" required/><br>
-            <br>
-            <input type="submit"><br>
-        </form>
+    <hr color="black" width="350" style="margin-top: 10%;">
 
-        <hr color="black" width="350">
 
-        <!-- Table -->
-        <h2>Tabela</h2>
+    <section id="projetos">
+        <h2>Projetos</h2>
 
-        <table border="1" class="center">
-            <thead>
-                <tr>
-                    <th bgcolor="PaleGoldenrod">Nome</th>
-                    <th bgcolor="PaleGoldenrod">Campus</th>
-                    <th bgcolor="PaleGoldenrod">Curso</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Manassés</td>
-                    <td>Vila Velha</td>
-                    <td>Ciência da Computação</td>
-                </tr>
-                <tr>
-                    <td>Alfred</td>
-                    <td>São Paulo</td>
-                    <td>Física</td>
-                </tr>
-                <tr>
-                    <td>Claus</td>
-                    <td>Campinas</td>
-                    <td>Medicina</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3">Desenvolvido por Manassés</td>
-                </tr>
-            </tfoot>
-        </table>
-        <br>
+        <a href="https://www.google.com/" target="_blank"><img src="./imagens/project_portrait.png" alt="test"></a>
+        <a href="https://www.google.com/" target="_blank"><img src="./imagens/project_portrait.png" alt="test"></a>
+        <a href="https://www.google.com/" target="_blank"><img src="./imagens/project_portrait.png" alt="test"></a>
+        <a href="https://www.google.com/" target="_blank"><img src="./imagens/project_portrait.png" alt="test"></a>
+
+        
+    </section>
+
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+    </section>
+
+
+    <section id="contatos">
+        <h2>Contatos</h2>
+    </section>
+
+
+
+        
+
+
 
         <hr color="black" width="350">
-
-    </div>
 
     <h2>Redes Sociais</h2>
 
