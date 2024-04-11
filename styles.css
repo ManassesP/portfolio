@@ -110,14 +110,20 @@ nav ul li:first-child {
   justify-content: center;
   align-items: center;
   color: #fff;
-
 }
 
 .info img {
   width: 2%;
   padding: 10px;
-
 }
+
+#pfp {
+  border-radius: 50%;
+  top: 35%;
+  left: 45%;
+}
+
+
 
 
 /*---------------------------------------------------*/
@@ -129,6 +135,10 @@ nav ul li:first-child {
   background-color: rgb(214, 213, 212);
   padding: 5%;
   height: 100%;
+
+  background-image: url("./imagens/detail.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #projetos h2 {
@@ -142,10 +152,9 @@ nav ul li:first-child {
   width: 30px;
   height: 30px;
   display: inline-block;
-  
 }
 
-#retratos  img{
+#retratos  .test{
   width: 20%;
   display: inline-block;
 }
@@ -164,6 +173,10 @@ nav ul li:first-child {
   height: 100%;
   display: inline-block;
   padding: 5%;
+
+  background-image: url("./imagens/detail.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   
 }
 
@@ -206,3 +219,5 @@ nav ul li:first-child {
   width: 20px;
   display: inline-block;
 }
+
+
