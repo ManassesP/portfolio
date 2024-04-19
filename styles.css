@@ -159,6 +159,9 @@ nav ul li:first-child {
   display: inline-block;
 }
 
+#projetos p {
+  font-size: 150%;
+}
 
 
 /*---------------------------------------------------*/
@@ -194,8 +197,41 @@ nav ul li:first-child {
 
 #sobre p {
   clear: both;
-  font-size: 20px;
+  font-size: 24px;
 }
+
+
+#tecnologias img {
+  margin-top: 2%;
+  width: 5%;
+  text-align: center;
+}
+
+#descricao_tecnologias {
+  display: flex;
+  justify-content: center;
+}
+
+#html {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#css {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#c {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+#python {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
 
 
 /*---------------------------------------------------*/
