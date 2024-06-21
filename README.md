@@ -1,1 +1,1 @@
-https://manassespaterline.github.io/portfolio/
+https://manassespaterline.github.io/first_portfolio/
